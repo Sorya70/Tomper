@@ -44,7 +44,7 @@ connectToDb();
 // );
 app.use(
   cors({
-    origin: ["https://ubuy-73b4f.web.app/", /localhost:\d{4}$/],
+    origin: ['https://ubuy-73b4f.web.app', /localhost:\d{4}$/],
     credentials: true,
   })
 );
